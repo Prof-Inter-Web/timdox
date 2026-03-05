@@ -906,3 +906,7 @@ a:hover.md-button--primary .ext-link-icon {
     }
 }
 
+[data-md-color-scheme=slate][data-md-color-primary=indigo] {
+    --md-typeset-a-color: ##808080;
+}
+
