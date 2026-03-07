@@ -1,0 +1,3949 @@
+
+<!doctype html>
+<html lang="fr" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://prof-inter-web.github.io/timdox/582-411-web4/cours07.html">
+      
+      
+        <link rel="prev" href="cours06.html">
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Cours 7 - TIMDoX</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+        <script src="https://unpkg.com/iframe-worker/shim"></script>
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/shift-away.css">
+    
+      <link rel="stylesheet" href="https://unpkg.com/lightgallery@2.8.2/css/lightgallery.css">
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/tokyo-night-dark.min.css">
+    
+      <link rel="stylesheet" href="../_/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-BFKT7FS4P2"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-BFKT7FS4P2",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-BFKT7FS4P2",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#1-structure-des-pages" class="md-skip">
+          Aller au contenu
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="En-tête">
+    <a href=".." title="TIMDoX" class="md-header__button md-logo" aria-label="TIMDoX" data-md-component="logo">
+      
+  <img src="../_/logo-tim2.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            TIMDoX
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Cours 7
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="TIMDoX" class="md-nav__button md-logo" aria-label="TIMDoX" data-md-component="logo">
+      
+  <img src="../_/logo-tim2.svg" alt="logo">
+
+    </a>
+    TIMDoX
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../582-111-web1/index.html" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Web 1
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_1" id="__nav_1_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Web 1
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-111-web1/cours01.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-111-web1/cours02.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-111-web1/cours03.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-111-web1/cours04.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-111-web1/cours05.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 5
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-111-web1/cours06.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-111-web1/cours07.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 7
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-111-web1/cours08.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 8
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-111-web1/cours09.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 9
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-111-web1/cours10.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 10
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-111-web1/cours11.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 11
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-111-web1/cours12.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 12
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-111-web1/cours13.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 13
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-111-web1/cours14.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 14
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-111-web1/cours15.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 15
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Web 2
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Web 2
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-211-web2/index.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Web 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-211-web2/cours01.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-211-web2/cours02.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-211-web2/cours03.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-211-web2/cours04.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-211-web2/cours05.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 5
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-211-web2/cours06.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-211-web2/cours07.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 7
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-211-web2/cours08.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 8
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-211-web2/cours09.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 9
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-211-web2/cours10.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 10
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-211-web2/cours11.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 11
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-211-web2/cours12.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 12
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-211-web2/cours13.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 13
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-211-web2/cours14.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 14
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-211-web2/cours15.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 15
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="index.html" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Web 4
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Web 4
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="cours01.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="cours02.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="cours03.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="cours04.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="cours05.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 5
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="cours06.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 7
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="cours07.html" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 7
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-structure-des-pages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          1. Structure des pages
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Structure des pages">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#le-panneau-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Le panneau Structure
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-ajouter-et-modifier-des-elements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          2. Ajouter et modifier des éléments
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-personnalisation-du-texte" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          3. Personnalisation du texte
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-personnalisation-des-boutons" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          4. Personnalisation des boutons
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-images-et-arriere-plans" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          5. Images et arrière-plans
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Images et arrière-plans">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#images-delements-widgets-image" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Images d’éléments (widgets image)
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#images-darriere-plan-dans-les-conteneurs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Images d’arrière-plan dans les conteneurs
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-gestion-de-lespacement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          6. Gestion de l’espacement
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Gestion de l’espacement">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mise-en-page-layout" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Mise en page (layout)
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-elementor-permet-dutiliser-deux-systemes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          7. Elementor permet d’utiliser deux systèmes :
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-optimisation-mobile" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          8. Optimisation mobile
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-ajouter-de-nouvelles-pages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          9. Ajouter de nouvelles pages
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#parametres-de-la-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Paramètres de la page
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Paramètres de la page">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#principaux-parametres-de-page-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Principaux paramètres de Page Settings
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Principaux paramètres de Page Settings">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-layout-mise-en-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          1. Layout (Mise en page)
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-style" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          2. Style
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-advanced" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          3. Advanced
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-page-title" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          4. Page Title
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-featured-image" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          5. Featured Image
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#idee-principale" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          ✅ Idée principale :
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#extensions-elementor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Extensions Elementor
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Extensions Elementor">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#unlimited-elements-for-elementor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Unlimited Elements For Elementor
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#custom-css-for-elementor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Custom CSS for Elementor
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="cours08.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 8
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="cours09.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 9
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="cours10.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 10
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="cours11.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 11
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="cours12.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 12
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="cours13/index.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 13
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="cours14/index.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 14
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="cours15/index.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 15
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Audio 1
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Audio 1
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-131-audio1/index.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Audio 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-131-audio1/cours01.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-131-audio1/cours02.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-131-audio1/cours03.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-131-audio1/cours04.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-131-audio1/cours05.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 5
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-131-audio1/cours06.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-131-audio1/cours07.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 7
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-131-audio1/cours08.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 8
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-131-audio1/cours09.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 9
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-131-audio1/cours10.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 10
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-131-audio1/cours11.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 11
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-131-audio1/cours12.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 12
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-131-audio1/cours13/index.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 13
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-131-audio1/cours14/index.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 14
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-131-audio1/cours15/index.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 15
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Traitement Audiovisuel
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Traitement Audiovisuel
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-412-traitement-audiovisuel/index.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Traitement Audiovisuel
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-412-traitement-audiovisuel/cours01.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-412-traitement-audiovisuel/cours02.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-412-traitement-audiovisuel/cours03.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-412-traitement-audiovisuel/cours04.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-412-traitement-audiovisuel/cours05.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 5
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-412-traitement-audiovisuel/cours06.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-412-traitement-audiovisuel/cours07.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 7
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-412-traitement-audiovisuel/cours08.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 8
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-412-traitement-audiovisuel/cours09.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 9
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-412-traitement-audiovisuel/cours10.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 10
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-412-traitement-audiovisuel/cours11.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 11
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-412-traitement-audiovisuel/cours12.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 12
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-412-traitement-audiovisuel/cours13/index.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 13
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-412-traitement-audiovisuel/cours14/index.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 14
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-412-traitement-audiovisuel/cours15/index.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 15
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-structure-des-pages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          1. Structure des pages
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Structure des pages">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#le-panneau-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Le panneau Structure
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-ajouter-et-modifier-des-elements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          2. Ajouter et modifier des éléments
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-personnalisation-du-texte" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          3. Personnalisation du texte
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-personnalisation-des-boutons" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          4. Personnalisation des boutons
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-images-et-arriere-plans" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          5. Images et arrière-plans
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Images et arrière-plans">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#images-delements-widgets-image" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Images d’éléments (widgets image)
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#images-darriere-plan-dans-les-conteneurs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Images d’arrière-plan dans les conteneurs
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-gestion-de-lespacement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          6. Gestion de l’espacement
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Gestion de l’espacement">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mise-en-page-layout" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Mise en page (layout)
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-elementor-permet-dutiliser-deux-systemes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          7. Elementor permet d’utiliser deux systèmes :
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-optimisation-mobile" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          8. Optimisation mobile
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-ajouter-de-nouvelles-pages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          9. Ajouter de nouvelles pages
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#parametres-de-la-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Paramètres de la page
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Paramètres de la page">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#principaux-parametres-de-page-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Principaux paramètres de Page Settings
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Principaux paramètres de Page Settings">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-layout-mise-en-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          1. Layout (Mise en page)
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-style" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          2. Style
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-advanced" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          3. Advanced
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-page-title" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          4. Page Title
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-featured-image" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          5. Featured Image
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#idee-principale" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          ✅ Idée principale :
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#extensions-elementor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Extensions Elementor
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Extensions Elementor">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#unlimited-elements-for-elementor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Unlimited Elements For Elementor
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#custom-css-for-elementor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Custom CSS for Elementor
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>Cours 7</h1>
+
+<div><p><img alt="" data-zoom-image="data-zoom-image" src="assets/images/elementor.png"></p>
+<h2 id="1-structure-des-pages">1. Structure des pages<a class="headerlink" href="#1-structure-des-pages" title="Permanent link">¶</a></h2>
+<p><img alt="" data-zoom-image="data-zoom-image" src="assets/images/elementor-container.png"></p>
+<p><strong>Une page est construite avec des conteneurs qui contiennent des éléments (widgets) comme :</strong></p>
+<ul>
+<li>titres</li>
+<li>textes</li>
+<li>boutons</li>
+<li>images</li>
+</ul>
+<h3 id="le-panneau-structure">Le panneau Structure<a class="headerlink" href="#le-panneau-structure" title="Permanent link">¶</a></h3>
+<p><img alt="" data-zoom-image="data-zoom-image" src="assets/images/elementor-structure.png"></p>
+<p>Le panneau Structure permet de voir l’organisation de tous les conteneurs et éléments.</p>
+<p><strong>On peut :</strong></p>
+<ul>
+<li>déplacer un conteneur</li>
+<li>ajouter un conteneur (ex. structure 2 colonnes)</li>
+<li>supprimer un élément</li>
+<li>annuler une action avec l’historique.</li>
+</ul>
+<h2 id="2-ajouter-et-modifier-des-elements">2. Ajouter et modifier des éléments<a class="headerlink" href="#2-ajouter-et-modifier-des-elements" title="Permanent link">¶</a></h2>
+<p><img alt="" data-zoom-image="data-zoom-image" src="assets/images/elementor-drop.png"></p>
+<p><strong>Dans Elementor on peut glisser-déposer des widgets :</strong></p>
+<ul>
+<li>Titre</li>
+<li>Texte</li>
+<li>Bouton</li>
+<li>Image</li>
+</ul>
+<p><strong>Chaque élément possède trois onglets de réglages :</strong></p>
+<p><img alt="" data-zoom-image="data-zoom-image" src="assets/images/elementor-edit.png"></p>
+<ul>
+<li><strong>Contenu</strong> – modifier le texte, lien, icône, etc.</li>
+<li><strong>Style</strong> – typographie, couleur, alignement, ombre, etc.</li>
+<li><strong>Avancé</strong> – marges, espacement, effets.</li>
+</ul>
+<h2 id="3-personnalisation-du-texte">3. Personnalisation du texte<a class="headerlink" href="#3-personnalisation-du-texte" title="Permanent link">¶</a></h2>
+<p><strong>On peut modifier :</strong></p>
+<p><img alt="" data-zoom-image="data-zoom-image" src="assets/images/elementor-text-edit.png"></p>
+<ul>
+<li>le contenu du texte</li>
+<li>la police</li>
+<li>la taille</li>
+<li>la couleur</li>
+<li>l’espacement des lettres et lignes</li>
+<li>les effets (ombre, contour).</li>
+</ul>
+<p><strong>Les couleurs peuvent provenir :</strong></p>
+<p><img alt="" data-zoom-image="data-zoom-image" src="assets/images/elementor-text-color.png"></p>
+<ul>
+<li>d’un code hexadécimal</li>
+<li>des couleurs globales du thème.</li>
+</ul>
+<h2 id="4-personnalisation-des-boutons">4. Personnalisation des boutons<a class="headerlink" href="#4-personnalisation-des-boutons" title="Permanent link">¶</a></h2>
+<p><img alt="" data-zoom-image="data-zoom-image" src="assets/images/elementor-button.png"></p>
+<p><strong>Les boutons peuvent être configurés pour :</strong></p>
+<ul>
+<li>rediriger vers une page (ex. contact)</li>
+<li>afficher une icône</li>
+</ul>
+<p><img alt="" data-zoom-image="data-zoom-image" src="assets/images/elementor-button-edit.png"></p>
+<ul>
+<li>
+<p><strong>modifier :</strong></p>
+<ul>
+<li>la couleur</li>
+<li>la typographie</li>
+<li>les coins arrondis</li>
+<li>les ombres</li>
+<li>les effets au survol (hover).</li>
+</ul>
+</li>
+</ul>
+<h2 id="5-images-et-arriere-plans">5. Images et arrière-plans<a class="headerlink" href="#5-images-et-arriere-plans" title="Permanent link">¶</a></h2>
+<p><strong>Deux types d’images :</strong></p>
+<p><img alt="" data-zoom-image="data-zoom-image" src="assets/images/elementor-drop.png"></p>
+<h3 id="images-delements-widgets-image">Images d’éléments (widgets image)<a class="headerlink" href="#images-delements-widgets-image" title="Permanent link">¶</a></h3>
+<p><img alt="" data-zoom-image="data-zoom-image" src="assets/images/elementor-background.png"></p>
+<h3 id="images-darriere-plan-dans-les-conteneurs">Images d’arrière-plan dans les conteneurs<a class="headerlink" href="#images-darriere-plan-dans-les-conteneurs" title="Permanent link">¶</a></h3>
+<ul>
+<li>
+<p><strong>Options possibles :</strong></p>
+<ul>
+<li>importer une image</li>
+<li>régler taille, bordure, ombre</li>
+<li>utiliser différents arrière-plans :</li>
+<li>image classique</li>
+<li>dégradé</li>
+<li>vidéo</li>
+<li>diaporama.</li>
+</ul>
+</li>
+</ul>
+<p>On peut aussi ajouter un <strong>overlay (calque)</strong> pour améliorer le contraste.</p>
+<h2 id="6-gestion-de-lespacement">6. Gestion de l’espacement<a class="headerlink" href="#6-gestion-de-lespacement" title="Permanent link">¶</a></h2>
+<p><img alt="" data-zoom-image="data-zoom-image" src="assets/images/elementor-marge-padding.png"></p>
+<p><strong>Trois méthodes principales :</strong></p>
+<ol>
+<li>
+<p><strong>Padding (remplissage)</strong>
+→ espace à l’intérieur d’un élément.</p>
+</li>
+<li>
+<p><strong>Margin (marge)</strong>
+→ espace à l’extérieur de l’élément.</p>
+</li>
+<li>
+<p><strong>Spacer widget</strong>
+→ élément qui ajoute simplement de l’espace.</p>
+</li>
+</ol>
+<p><img alt="" data-zoom-image="data-zoom-image" src="assets/images/elementor-spacer.png"></p>
+<p>On peut aussi ajuster la hauteur minimale d’un conteneur.</p>
+<h5 id="mise-en-page-layout">Mise en page (layout)<a class="headerlink" href="#mise-en-page-layout" title="Permanent link">¶</a></h5>
+<p><img alt="" data-zoom-image="data-zoom-image" src="assets/images/elementor-heigth.png"></p>
+<h2 id="7-elementor-permet-dutiliser-deux-systemes">7. Elementor permet d’utiliser deux systèmes :<a class="headerlink" href="#7-elementor-permet-dutiliser-deux-systemes" title="Permanent link">¶</a></h2>
+<p><img alt="" data-zoom-image="data-zoom-image" src="assets/images/elementor-layout.png"></p>
+<p><strong>Flexbox</strong></p>
+<ul>
+<li>simple</li>
+<li>lignes ou colonnes</li>
+<li>idéal pour la plupart des mises en page.</li>
+</ul>
+<p><strong>Grid</strong></p>
+<ul>
+<li>plus complexe</li>
+<li>pour galeries ou layouts avancés.</li>
+<li>Exemple : créer 3 colonnes avec images + texte.</li>
+</ul>
+<p>Ces réglages s’appliquent à tout le site.</p>
+<h2 id="8-optimisation-mobile">8. Optimisation mobile<a class="headerlink" href="#8-optimisation-mobile" title="Permanent link">¶</a></h2>
+<p><img alt="" data-zoom-image="data-zoom-image" src="assets/images/elementor-mobile.png"></p>
+<p>Elementor permet de voir la page en :</p>
+<ul>
+<li>desktop</li>
+<li>tablette</li>
+<li>mobile</li>
+</ul>
+<p><strong>On peut :</strong></p>
+<ul>
+<li>changer la taille des textes sur mobile</li>
+<li>ajuster les marges</li>
+<li>cacher certaines sections sur mobile.</li>
+</ul>
+<h2 id="9-ajouter-de-nouvelles-pages">9. Ajouter de nouvelles pages<a class="headerlink" href="#9-ajouter-de-nouvelles-pages" title="Permanent link">¶</a></h2>
+<p><img alt="" data-zoom-image="data-zoom-image" src="assets/images/elementor-new-page.png"></p>
+<p><strong>Pour créer une page :</strong></p>
+<ul>
+<li>Ajouter une nouvelle page dans Elementor.</li>
+<li>Publier la page.</li>
+</ul>
+<p>Ajouter la page au menu WordPress (Apparence → Menus).</p>
+<h2 id="parametres-de-la-page">Paramètres de la page<a class="headerlink" href="#parametres-de-la-page" title="Permanent link">¶</a></h2>
+<p><img alt="" data-zoom-image="data-zoom-image" src="assets/images/elementor-page-setting.png"></p>
+<h3 id="principaux-parametres-de-page-settings">Principaux paramètres de Page Settings<a class="headerlink" href="#principaux-parametres-de-page-settings" title="Permanent link">¶</a></h3>
+<h5 id="1-layout-mise-en-page">1. Layout (Mise en page)<a class="headerlink" href="#1-layout-mise-en-page" title="Permanent link">¶</a></h5>
+<p>Contrôle la structure générale de la page.</p>
+<p><strong>Options fréquentes :</strong></p>
+<ul>
+<li>Default → utilise le thème WordPress.</li>
+<li>Elementor Full Width → pleine largeur mais avec le header et footer.</li>
+<li>Elementor Canvas → page vide sans header ni footer (utile pour landing page).</li>
+</ul>
+<p><strong>Autres réglages :</strong></p>
+<ul>
+<li>Content Width → largeur maximale du contenu</li>
+<li>Widgets Space → espace entre les widgets.</li>
+</ul>
+<h5 id="2-style">2. Style<a class="headerlink" href="#2-style" title="Permanent link">¶</a></h5>
+<p>Permet de définir le style global de la page.</p>
+<p><strong>Exemples :</strong></p>
+<ul>
+<li>Background → couleur ou image d’arrière-plan</li>
+<li>Background overlay</li>
+<li>Typography globale</li>
+<li>Couleurs de texte</li>
+</ul>
+<p>Ces réglages s’appliquent à toute la page.</p>
+<h5 id="3-advanced">3. Advanced<a class="headerlink" href="#3-advanced" title="Permanent link">¶</a></h5>
+<p><strong>Options avancées :</strong></p>
+<ul>
+<li>Margin / Padding de la page</li>
+<li>Custom CSS (version pro)</li>
+<li>Responsive settings</li>
+<li>Motion effects</li>
+</ul>
+<h5 id="4-page-title">4. Page Title<a class="headerlink" href="#4-page-title" title="Permanent link">¶</a></h5>
+<p><strong>Permet de :</strong></p>
+<ul>
+<li>afficher ou cacher le titre de la page.</li>
+</ul>
+<p>Souvent utilisé quand Elementor crée un header personnalisé.</p>
+<h5 id="5-featured-image">5. Featured Image<a class="headerlink" href="#5-featured-image" title="Permanent link">¶</a></h5>
+<p>Permet de définir l’image à la une de la page.</p>
+<p><strong>Elle peut être utilisée par :</strong></p>
+<ul>
+<li>le thème</li>
+<li>les articles de blog</li>
+<li>les réseaux sociaux.</li>
+</ul>
+<h2 id="idee-principale">✅ Idée principale :<a class="headerlink" href="#idee-principale" title="Permanent link">¶</a></h2>
+<p>Elementor permet de créer un site WordPress visuellement en utilisant des conteneurs, widgets, styles, espacements et modèles, tout en optimisant la mise en page pour desktop et mobile.</p>
+<h2 id="extensions-elementor">Extensions Elementor<a class="headerlink" href="#extensions-elementor" title="Permanent link">¶</a></h2>
+<h3 id="unlimited-elements-for-elementor">Unlimited Elements For Elementor<a class="headerlink" href="#unlimited-elements-for-elementor" title="Permanent link">¶</a></h3>
+<p><img alt="" data-zoom-image="data-zoom-image" src="assets/images/elementor-unlimited.png"></p>
+<h3 id="custom-css-for-elementor">Custom CSS for Elementor<a class="headerlink" href="#custom-css-for-elementor" title="Permanent link">¶</a></h3>
+<p><img alt="" data-zoom-image="data-zoom-image" src="assets/images/elementor-css.png"></p></div>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Techniques d’intégration multimédia | Collège Montmorency
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.indexes", "navigation.sections"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="../_/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
+      
+        <script src="https://unpkg.com/fireworks-js@2.x/dist/index.umd.js"></script>
+      
+        <script src="https://unpkg.com/lightgallery@2.8.2/lightgallery.min.js"></script>
+      
+        <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+      
+        <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+      
+        <script src="../_/extra.js"></script>
+      
+        <script src="../_/image-zoom.js"></script>
+      
+        <script src="../_/gallery.js"></script>
+      
+        <script src="../_/tooltip.js"></script>
+      
+    
+  </body>
+</html>
