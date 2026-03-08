@@ -24,6 +24,7 @@ theme:
   features:
     - navigation.indexes  # Permet au titre de la section d'être un lien cliquable
     - navigation.sections # Crée une séparation visuelle plus nette (lifted)
+    - content.code.copy
   language: fr  # Change toutes les étiquettes par défaut en français
 
 markdown_extensions:
