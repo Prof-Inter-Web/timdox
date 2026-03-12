@@ -1,0 +1,4869 @@
+
+<!doctype html>
+<html lang="fr" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://prof-inter-web.github.io/timdox/582-411-web4/cours08.html">
+      
+      
+        <link rel="prev" href="cours07.html">
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Cours 8 - TIMDoX</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+        <script src="https://unpkg.com/iframe-worker/shim"></script>
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/shift-away.css">
+    
+      <link rel="stylesheet" href="https://unpkg.com/lightgallery@2.8.2/css/lightgallery.css">
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/tokyo-night-dark.min.css">
+    
+      <link rel="stylesheet" href="../_/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-BFKT7FS4P2"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-BFKT7FS4P2",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-BFKT7FS4P2",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#commerce-electronique" class="md-skip">
+          Aller au contenu
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="En-tête">
+    <a href=".." title="TIMDoX" class="md-header__button md-logo" aria-label="TIMDoX" data-md-component="logo">
+      
+  <img src="../_/logo-tim2.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            TIMDoX
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Cours 8
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="TIMDoX" class="md-nav__button md-logo" aria-label="TIMDoX" data-md-component="logo">
+      
+  <img src="../_/logo-tim2.svg" alt="logo">
+
+    </a>
+    TIMDoX
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../582-111-web1/index.html" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Web 1
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_1" id="__nav_1_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Web 1
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-111-web1/cours01.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-111-web1/cours02.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-111-web1/cours03.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-111-web1/cours04.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-111-web1/cours05.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 5
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-111-web1/cours06.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-111-web1/cours07.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 7
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-111-web1/cours08.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 8
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-111-web1/cours09.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 9
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-111-web1/cours10.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 10
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-111-web1/cours11.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 11
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-111-web1/cours12.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 12
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-111-web1/cours13.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 13
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-111-web1/cours14.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 14
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-111-web1/cours15.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 15
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Web 2
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Web 2
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-211-web2/index.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Web 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-211-web2/cours01.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-211-web2/cours02.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-211-web2/cours03.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-211-web2/cours04.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-211-web2/cours05.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 5
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-211-web2/cours06.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-211-web2/cours07.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 7
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-211-web2/cours08.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 8
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-211-web2/cours09.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 9
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-211-web2/cours10.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 10
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-211-web2/cours11.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 11
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-211-web2/cours12.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 12
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-211-web2/cours13.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 13
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-211-web2/cours14.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 14
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-211-web2/cours15.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 15
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="index.html" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Web 4
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Web 4
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="cours01.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="cours02.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="cours03.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="cours04.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="cours05.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 5
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="cours06.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="cours07.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 7
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 8
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="cours08.html" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 8
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#commerce-electronique" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Commerce électronique
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Commerce électronique">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#obligations-fiscales" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Obligations fiscales
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tenue-de-registres" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Tenue de registres
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#les-acomptes-provisionnels" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Les acomptes provisionnels
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Les acomptes provisionnels">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exemple-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Exemple 1
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exemple-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Exemple 2
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#faut-il-creer-une-compagnie-pour-vendre-en-ligne" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Faut-il créer une compagnie pour vendre en ligne ?
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#shopify" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Shopify
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Shopify">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#plans-tarifaires-de-shopify" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Plans tarifaires de Shopify
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pourquoi-une-fourchette-de-28-a-35" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Pourquoi une fourchette de 2,8 à 3,5 % ?
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pourquoi-choisir-dautres-plateformes-de-paiement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Pourquoi choisir d'autres plateformes de paiement ?
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exemple-concret" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Exemple concret
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Exemple concret">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#configuration-des-taxes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Configuration des taxes
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#technicite" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Technicité
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sku" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          SKU
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#woocommerce" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Woocommerce
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Woocommerce">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#section-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Section 1
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pourquoi-utiliser-woocommerce" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Pourquoi utiliser WooCommerce :
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Section 2
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 2">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#les-types-de-produits" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Les types de produits
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1-produit-simple" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          1. Produit simple
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-produit-variable" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          2. Produit variable
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-produit-telechargeable" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          3. Produit téléchargeable
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-produit-virtuel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          4. Produit virtuel
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Section 3
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 3">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ajouter-un-produit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Ajouter un produit
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#titre-du-produit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Titre du produit
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#description" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Description
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prix" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Prix
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#image-produit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Image produit
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#galerie" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Galerie
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Section 4
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 4">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categories-et-etiquettes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Catégories et étiquettes
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Catégories et étiquettes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categories" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Catégories
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#etiquettes-tags" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Étiquettes (tags)
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Section 5
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 5">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#paiements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Paiements
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Section 6
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 6">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#livraison" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Livraison
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Livraison">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#zones-de-livraison" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Zones de livraison
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#methodes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Méthodes
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Section 7
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 7">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gestion-des-commandes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Gestion des commandes
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#statuts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Statuts :
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Section 8
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 8">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#extensions-woocommerce" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Extensions WooCommerce
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="cours09.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 9
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="cours10.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 10
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="cours11.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 11
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="cours12.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 12
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="cours13/index.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 13
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="cours14/index.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 14
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="cours15/index.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 15
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Audio 1
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Audio 1
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-131-audio1/index.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Audio 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-131-audio1/cours01.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-131-audio1/cours02.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-131-audio1/cours03.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-131-audio1/cours04.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-131-audio1/cours05.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 5
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-131-audio1/cours06.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-131-audio1/cours07.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 7
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-131-audio1/cours08.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 8
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-131-audio1/cours09.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 9
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-131-audio1/cours10.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 10
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-131-audio1/cours11.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 11
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-131-audio1/cours12.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 12
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-131-audio1/cours13/index.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 13
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-131-audio1/cours14/index.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 14
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-131-audio1/cours15/index.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 15
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Traitement Audiovisuel
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Traitement Audiovisuel
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-412-traitement-audiovisuel/index.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Traitement Audiovisuel
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-412-traitement-audiovisuel/cours01.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-412-traitement-audiovisuel/cours02.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-412-traitement-audiovisuel/cours03.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-412-traitement-audiovisuel/cours04.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-412-traitement-audiovisuel/cours05.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 5
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-412-traitement-audiovisuel/cours06.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-412-traitement-audiovisuel/cours07.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 7
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-412-traitement-audiovisuel/cours08.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 8
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-412-traitement-audiovisuel/cours09.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 9
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-412-traitement-audiovisuel/cours10.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 10
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-412-traitement-audiovisuel/cours11.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 11
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-412-traitement-audiovisuel/cours12.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 12
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-412-traitement-audiovisuel/cours13/index.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 13
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-412-traitement-audiovisuel/cours14/index.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 14
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-412-traitement-audiovisuel/cours15/index.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 15
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#commerce-electronique" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Commerce électronique
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Commerce électronique">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#obligations-fiscales" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Obligations fiscales
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tenue-de-registres" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Tenue de registres
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#les-acomptes-provisionnels" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Les acomptes provisionnels
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Les acomptes provisionnels">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exemple-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Exemple 1
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exemple-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Exemple 2
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#faut-il-creer-une-compagnie-pour-vendre-en-ligne" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Faut-il créer une compagnie pour vendre en ligne ?
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#shopify" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Shopify
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Shopify">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#plans-tarifaires-de-shopify" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Plans tarifaires de Shopify
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pourquoi-une-fourchette-de-28-a-35" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Pourquoi une fourchette de 2,8 à 3,5 % ?
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pourquoi-choisir-dautres-plateformes-de-paiement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Pourquoi choisir d'autres plateformes de paiement ?
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exemple-concret" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Exemple concret
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Exemple concret">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#configuration-des-taxes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Configuration des taxes
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#technicite" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Technicité
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sku" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          SKU
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#woocommerce" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Woocommerce
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Woocommerce">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#section-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Section 1
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pourquoi-utiliser-woocommerce" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Pourquoi utiliser WooCommerce :
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Section 2
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 2">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#les-types-de-produits" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Les types de produits
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1-produit-simple" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          1. Produit simple
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-produit-variable" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          2. Produit variable
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-produit-telechargeable" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          3. Produit téléchargeable
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-produit-virtuel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          4. Produit virtuel
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Section 3
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 3">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ajouter-un-produit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Ajouter un produit
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#titre-du-produit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Titre du produit
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#description" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Description
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prix" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Prix
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#image-produit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Image produit
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#galerie" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Galerie
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Section 4
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 4">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categories-et-etiquettes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Catégories et étiquettes
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Catégories et étiquettes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categories" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Catégories
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#etiquettes-tags" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Étiquettes (tags)
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Section 5
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 5">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#paiements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Paiements
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Section 6
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 6">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#livraison" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Livraison
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Livraison">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#zones-de-livraison" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Zones de livraison
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#methodes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Méthodes
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Section 7
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 7">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gestion-des-commandes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Gestion des commandes
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#statuts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Statuts :
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Section 8
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 8">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#extensions-woocommerce" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Extensions WooCommerce
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>Cours 8</h1>
+
+<div><h2 id="commerce-electronique">Commerce électronique<a class="headerlink" href="#commerce-electronique" title="Permanent link">¶</a></h2>
+<p><img alt="" src="assets/images/commerce-electronique.jpg"></p>
+<p>Vendre en ligne au Québec implique de respecter plusieurs <a href="https://www.latactik.com/etapes-creation-boutique-ecommerce-canada"><strong>obligations légales et fiscales</strong></a> pour assurer la conformité de votre entreprise.</p>
+<h3 id="obligations-fiscales">Obligations fiscales<a class="headerlink" href="#obligations-fiscales" title="Permanent link">¶</a></h3>
+<p><img alt="" src="assets/images/wows.gif"></p>
+<p>Au Québec, si vous réalisez <strong>plus de 30 000 $ de revenus</strong> sur une période de <strong>quatre trimestres consécutifs</strong>, vous êtes <a href="https://www.revenuquebec.ca/fr/entreprises/taxes/tpstvh-et-tvq/inscription-aux-fichiers-de-la-tps-et-de-la-tvq/"><strong>tenu de facturer la TPS (5 %) et la TVQ (9.975 %)</strong></a> sur vos ventes, puis de les remettre au gouvernement.</p>
+<p>Même si vos revenus sont inférieurs à 30 000 $, vous pouvez <strong>choisir de vous inscrire volontairement</strong>, mais ça rend peut-être vos produits <strong>moins compétitifs</strong>.</p>
+<p>⚠️ <strong>Important</strong> : Si vous facturez les taxes, vous devez <strong>obligatoirement</strong> les remettre. Les conserver serait une <strong>infraction fiscale</strong>.</p>
+<h3 id="tenue-de-registres">Tenue de registres<a class="headerlink" href="#tenue-de-registres" title="Permanent link">¶</a></h3>
+<p>Il est essentiel de tenir des <strong>registres clairs et complets</strong> de vos revenus et dépenses. Cela permet aux autorités fiscales de vérifier vos déclarations.</p>
+<p>Les plateformes comme Shopify, Stripe ou PayPal peuvent faciliter le suivi, mais il est conseillé de :</p>
+<ul>
+<li>faire des <strong>sauvegardes régulières</strong>,</li>
+<li>conserver des <strong>preuves de transaction</strong> (factures, reçus, etc.),</li>
+<li>garder une trace aussi de vos <strong>dépenses d’entreprise</strong> (matières premières, équipement, pub, etc.).</li>
+</ul>
+<h3 id="les-acomptes-provisionnels">Les acomptes provisionnels<a class="headerlink" href="#les-acomptes-provisionnels" title="Permanent link">¶</a></h3>
+<p>Lorsque vous vendez régulièrement des produits ou services — que ce soit comme <strong>travailleur autonome</strong> ou dans le cadre d’une <strong>société en nom collectif</strong> — vous pourriez devoir faire des <strong>acomptes provisionnels</strong>[^provi].</p>
+<ul>
+<li>Requis si votre impôt net à payer dépasse <a href="https://www.revenuquebec.ca/fr/citoyens/declaration-de-revenus/payer-ou-etre-rembourse/acomptes-provisionnels/"><strong>1 800 $</strong></a>.</li>
+<li>Généralement versés <strong>chaque trimestre</strong> (mars, juin, septembre, décembre).</li>
+<li>Ils remplacent la retenue à la source normalement prélevée par un employeur.</li>
+</ul>
+<blockquote>
+<p>💡 En bas de 1 800 $, le gouvernement considère que l’impôt est « raisonnable » à payer en une fois. Au-delà, il préfère que vous payiez au fur et à mesure, pour éviter les mauvaises surprises.</p>
+</blockquote>
+<h4 id="exemple-1">Exemple 1<a class="headerlink" href="#exemple-1" title="Permanent link">¶</a></h4>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th>Montant</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Revenu brut</td>
+<td>12 000 $</td>
+</tr>
+<tr>
+<td>Dépenses d'entreprise</td>
+<td>– 2 000 $</td>
+</tr>
+<tr>
+<td><strong>Revenu net imposable</strong></td>
+<td><strong>10 000 $</strong></td>
+</tr>
+<tr>
+<td>Impôt estimé (QC + fédéral)</td>
+<td>~1 300 à 1 500 $</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Résultat</strong> : L’impôt estimé est <strong>inférieur à 1 800 $</strong> = <strong>pas besoin d’acomptes provisionnels.</strong></p>
+<h4 id="exemple-2">Exemple 2<a class="headerlink" href="#exemple-2" title="Permanent link">¶</a></h4>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th>Montant</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Revenu brut</td>
+<td>20 000 $</td>
+</tr>
+<tr>
+<td>Dépenses d'entreprise</td>
+<td>– 3 000 $</td>
+</tr>
+<tr>
+<td><strong>Revenu net imposable</strong></td>
+<td><strong>17 000 $</strong></td>
+</tr>
+<tr>
+<td>Impôt estimé (QC + fédéral)</td>
+<td>~2 300 à 2 600 $</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Résultat</strong> : L’impôt estimé est <strong>supérieur à 1 800 $</strong> = <strong>acomptes provisionnels requis.</strong></p>
+<h3 id="faut-il-creer-une-compagnie-pour-vendre-en-ligne">Faut-il créer une compagnie pour vendre en ligne ?<a class="headerlink" href="#faut-il-creer-une-compagnie-pour-vendre-en-ligne" title="Permanent link">¶</a></h3>
+<p>Non, pas nécessairement.</p>
+<p>Vous pouvez vendre en tant que <strong>travailleur autonome</strong>, sans constituer une société.</p>
+<p>Cependant, si vous exploitez une activité commerciale <strong>de façon régulière</strong> (boutique en ligne, marchés, Etsy, etc.), vous devez vous <strong>inscrire au Registre des entreprises du Québec</strong>.</p>
+<p><a href="https://www.quebec.ca/entreprises-et-travailleurs-autonomes/obtenir-renseignements-entreprise/recherche-registre-entreprises/acceder-registre-entreprises">Accéder au Registre des entreprises du Québec</a></p>
+<h2 id="shopify">Shopify<a class="headerlink" href="#shopify" title="Permanent link">¶</a></h2>
+<p><img alt="" src="assets/images/shopify-banner.png"></p>
+<p><strong>Shopify</strong> est une plateforme tout-en-un qui permet de créer facilement une boutique en ligne <strong>sans avoir à gérer l’hébergement</strong>.</p>
+<ul>
+<li><a href="https://www.shopify.com/blog/ecommerce-website-cost">Coût d’un site e-commerce Shopify en 2025</a></li>
+<li><a href="https://www.youtube.com/@learnwithshopify">▶ Chaîne YouTube | Learn With Shopify</a></li>
+</ul>
+<h3 id="plans-tarifaires-de-shopify">Plans tarifaires de Shopify<a class="headerlink" href="#plans-tarifaires-de-shopify" title="Permanent link">¶</a></h3>
+<p>Tous les plans incluent un <strong>essai gratuit de 3 jours</strong>. Ça va nous être utile ;)</p>
+<table>
+<thead>
+<tr>
+<th>Plan Shopify</th>
+<th>Frais de transaction Shopify</th>
+<th>Frais de carte (Shopify Payments)</th>
+<th>Frais totaux approx.</th>
+<th>Remarques</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Starter</strong></td>
+<td><strong>5 %</strong></td>
+<td>Inclus dans les 5 %</td>
+<td><strong>5 %</strong></td>
+<td>Pas de boutique complète, vente via lien ou réseaux sociaux</td>
+</tr>
+<tr>
+<td><strong>Basic</strong></td>
+<td><strong>0 %</strong></td>
+<td>2,8 % + 0,30 $ CAD (en ligne)</td>
+<td>~2,8–3,5 %</td>
+<td>Boutique complète, moins de frais</td>
+</tr>
+<tr>
+<td><strong>Basic</strong> (avec Stripe ou PayPal)</td>
+<td><strong>2 %</strong></td>
+<td>Stripe : ~2,9 % + 0,30 $</td>
+<td>~5 %</td>
+<td>Utiliser Shopify Payments évite ces 2 %</td>
+</tr>
+<tr>
+<td><strong>Shopify (Standard)</strong></td>
+<td><strong>0 %</strong></td>
+<td>2,7 % + 0,30 $ CAD</td>
+<td>~2,7–3,3 %</td>
+<td>Frais de carte un peu réduits</td>
+</tr>
+<tr>
+<td><strong>Advanced</strong></td>
+<td><strong>0 %</strong></td>
+<td>2,4 % + 0,30 $ CAD</td>
+<td>~2,4–3 %</td>
+<td>Frais encore plus bas pour gros volume</td>
+</tr>
+</tbody>
+</table>
+<p>💡 En utilisant <strong>Shopify Payments</strong>, tu évites les 2 % de frais Shopify (appliqués si tu utilises Stripe ou PayPal sur les plans Basic et +).</p>
+<p>Le plan Starter est simple, mais <strong>plus coûteux par vente</strong> — idéal pour tester, pas pour long terme.</p>
+<h3 id="pourquoi-une-fourchette-de-28-a-35">Pourquoi une fourchette de 2,8 à 3,5 % ?<a class="headerlink" href="#pourquoi-une-fourchette-de-28-a-35" title="Permanent link">¶</a></h3>
+<p>Parce que les frais varient selon le <strong>type de carte utilisé</strong> par le client :</p>
+<table>
+<thead>
+<tr>
+<th>Type de carte</th>
+<th>Taux appliqué</th>
+<th>Frais totaux</th>
+<th>💰 Montant reçu sur 10 $</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Carte canadienne (Visa/MC)</td>
+<td>2,8 % + 0,30 $ CAD</td>
+<td>0,28 $ + 0,30 $ = 0,58 $</td>
+<td><strong>9,42 $</strong></td>
+</tr>
+<tr>
+<td>Carte internationale (Visa/MC)</td>
+<td>3,5 % + 0,30 $ CAD</td>
+<td>0,35 $ + 0,30 $ = 0,65 $</td>
+<td><strong>9,35 $</strong></td>
+</tr>
+<tr>
+<td>Carte American Express (Amex)</td>
+<td>3,5 % + 0,30 $ CAD</td>
+<td>0,35 $ + 0,30 $ = 0,65 $</td>
+<td><strong>9,35 $</strong></td>
+</tr>
+</tbody>
+</table>
+<h3 id="pourquoi-choisir-dautres-plateformes-de-paiement">Pourquoi choisir d'autres plateformes de paiement ?<a class="headerlink" href="#pourquoi-choisir-dautres-plateformes-de-paiement" title="Permanent link">¶</a></h3>
+<ul>
+<li>Certains clients <strong>font davantage confiance à PayPal</strong>, surtout à l'international.</li>
+<li>Dans <a href="https://help.shopify.com/en/manual/payments/shopify-payments/supported-countries">certains pays</a>, <strong>Shopify Payments n’est pas disponible</strong>, donc Stripe devient une bonne alternative.</li>
+</ul>
+<p>C'est un marché très compétitif, il faut bien magasiner ses affaires.</p>
+<h3 id="exemple-concret">Exemple concret<a class="headerlink" href="#exemple-concret" title="Permanent link">¶</a></h3>
+<p>Imaginons :</p>
+<ul>
+<li>Je veux vendre un pot de fleurs affiché à <strong>10 $ CAD</strong>.</li>
+<li>Taxes applicables : <strong>TPS (5 %) + TVQ (9.975 %) = 14.975 %</strong></li>
+<li>Le client paie par <strong>Visa ou Mastercard (via Shopify Payments)</strong>.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Plan Shopify</th>
+<th>Frais totaux approx.</th>
+<th>💰 Tu reçois sur 10 $</th>
+<th>Remarques</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Starter</strong></td>
+<td><strong>5 %</strong></td>
+<td><strong>9,50 $</strong></td>
+<td>Vente via lien ou réseaux sociaux, pas de boutique</td>
+</tr>
+<tr>
+<td><strong>Basic</strong></td>
+<td>~2,9–3,5 %</td>
+<td>~<strong>9,65–9,70 $</strong></td>
+<td>Boutique complète, pas de frais Shopify</td>
+</tr>
+<tr>
+<td><strong>Basic + Stripe</strong></td>
+<td>~5 %</td>
+<td>~<strong>9,50 $</strong></td>
+<td>Frais Stripe + 2 % Shopify</td>
+</tr>
+<tr>
+<td><strong>Shopify (Standard)</strong></td>
+<td>~2,7–3,3 %</td>
+<td>~<strong>9,68–9,73 $</strong></td>
+<td>Frais réduits avec volume</td>
+</tr>
+<tr>
+<td><strong>Advanced</strong></td>
+<td>~2,4–3 %</td>
+<td>~<strong>9,70–9,76 $</strong></td>
+<td>Pour gros vendeurs, frais au minimum</td>
+</tr>
+</tbody>
+</table>
+<h4 id="configuration-des-taxes">Configuration des taxes<a class="headerlink" href="#configuration-des-taxes" title="Permanent link">¶</a></h4>
+<p><img alt="" src="assets/images/shop-taxes.png"></p>
+<p><a href="https://youtu.be/ferhOYx1NMo?feature=shared&amp;t=2494">Tuto ;)</a></p>
+<h3 id="technicite">Technicité<a class="headerlink" href="#technicite" title="Permanent link">¶</a></h3>
+<p>L'url donné par shopify est le suivant : nom-de-ta-boutique.myshopify.com</p>
+<h3 id="sku">SKU<a class="headerlink" href="#sku" title="Permanent link">¶</a></h3>
+<p><img alt="" src="assets/images/sku.webp"></p>
+<p>Le <a href="https://www.shopify.com/fr/blog/sku">SKU</a> (Stock Keeping Unit) est un code interne qu'on utilise pour identifier des produits.</p>
+<p>Tu peux laisser ce champ vide si :</p>
+<ul>
+<li>Tu gères un <strong>inventaire simple</strong> ou artisanal (ex. : chaque pot est unique).</li>
+<li>Tu n’as pas besoin d’inventaire détaillé.</li>
+</ul>
+<p>Tu devrais utiliser un SKU si :</p>
+<ul>
+<li>Tu as plusieurs variantes d’un même produit (tailles, couleurs, etc.).</li>
+<li>Tu gères un inventaire plus complexe.</li>
+<li>Tu veux pouvoir rechercher, filtrer ou identifier rapidement un produit.</li>
+<li>Tu utilises un logiciel externe de gestion d’inventaire ou de comptabilité.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Produit</th>
+<th>Variante</th>
+<th>SKU</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pot de fleurs en céramique</td>
+<td>Bleu</td>
+<td>POT-CER-BL</td>
+</tr>
+<tr>
+<td>Pot de fleurs en céramique</td>
+<td>Rouge</td>
+<td>POT-CER-RG</td>
+</tr>
+<tr>
+<td>Pot de fleurs en céramique</td>
+<td>Vert</td>
+<td>POT-CER-VT</td>
+</tr>
+<tr>
+<td>Pot suspendu en terre cuite</td>
+<td>Taille M</td>
+<td>POT-TC-MED</td>
+</tr>
+<tr>
+<td>Pot suspendu en terre cuite</td>
+<td>Taille L</td>
+<td>POT-TC-LRG</td>
+</tr>
+<tr>
+<td>Petit pot fait main (unique)</td>
+<td>—</td>
+<td>POT-001</td>
+</tr>
+</tbody>
+</table>
+<!-- ## WooCommerce
+
+![](./assets/images/woocommerce-banner.png)
+
+**WooCommerce**, en revanche, est un **plugin gratuit pour WordPress** qui transforme un site existant en boutique en ligne.
+Il demande toutefois **plus de configuration** (hébergement, sécurité, mises à jour, etc.). -->
+
+<h2 id="woocommerce">Woocommerce<a class="headerlink" href="#woocommerce" title="Permanent link">¶</a></h2>
+<h3 id="section-1">Section 1<a class="headerlink" href="#section-1" title="Permanent link">¶</a></h3>
+<h5 id="pourquoi-utiliser-woocommerce">Pourquoi utiliser WooCommerce :<a class="headerlink" href="#pourquoi-utiliser-woocommerce" title="Permanent link">¶</a></h5>
+<ul>
+<li>gratuit</li>
+<li>flexible</li>
+<li>intégré à WordPress</li>
+<li>milliers d’extensions</li>
+</ul>
+<h3 id="section-2">Section 2<a class="headerlink" href="#section-2" title="Permanent link">¶</a></h3>
+<p><img alt="" data-zoom-image="data-zoom-image" src="assets/images/woocommerce-produits.png"></p>
+<h5 id="les-types-de-produits">Les types de produits<a class="headerlink" href="#les-types-de-produits" title="Permanent link">¶</a></h5>
+<p>WooCommerce permet plusieurs types :</p>
+<h4 id="1-produit-simple">1. Produit simple<a class="headerlink" href="#1-produit-simple" title="Permanent link">¶</a></h4>
+<p>Produit standard.</p>
+<p>Exemple :</p>
+<ul>
+<li>livre</li>
+<li>t-shirt</li>
+</ul>
+<h4 id="2-produit-variable">2. Produit variable<a class="headerlink" href="#2-produit-variable" title="Permanent link">¶</a></h4>
+<p>Produit avec variations :</p>
+<ul>
+<li>tailles</li>
+<li>couleurs</li>
+</ul>
+<h4 id="3-produit-telechargeable">3. Produit téléchargeable<a class="headerlink" href="#3-produit-telechargeable" title="Permanent link">¶</a></h4>
+<p>Exemple :</p>
+<ul>
+<li>PDF</li>
+<li>musique</li>
+<li>logiciel</li>
+</ul>
+<h4 id="4-produit-virtuel">4. Produit virtuel<a class="headerlink" href="#4-produit-virtuel" title="Permanent link">¶</a></h4>
+<p>Service :</p>
+<ul>
+<li>formation</li>
+<li>consultation</li>
+</ul>
+<h2 id="section-3">Section 3<a class="headerlink" href="#section-3" title="Permanent link">¶</a></h2>
+<h5 id="ajouter-un-produit">Ajouter un produit<a class="headerlink" href="#ajouter-un-produit" title="Permanent link">¶</a></h5>
+<p><img alt="" data-zoom-image="data-zoom-image" src="assets/images/woocommerce-caracteristiques.png"></p>
+<p><img alt="" data-zoom-image="data-zoom-image" src="assets/images/woocommerce-produits-type.png"></p>
+<p><img alt="" data-zoom-image="data-zoom-image" src="assets/images/woocommerce-image.png"></p>
+<div class="admonition info">
+<p class="admonition-title">Menu</p>
+<pre><code>Produits → Ajouter
+</code></pre>
+</div>
+<p>Champs principaux :</p>
+<h4 id="titre-du-produit">Titre du produit<a class="headerlink" href="#titre-du-produit" title="Permanent link">¶</a></h4>
+<p>Casque audio professionnel</p>
+<h4 id="description">Description<a class="headerlink" href="#description" title="Permanent link">¶</a></h4>
+<p>Description complète du produit.</p>
+<h4 id="prix">Prix<a class="headerlink" href="#prix" title="Permanent link">¶</a></h4>
+<ul>
+<li>Prix régulier</li>
+<li>Prix promotionnel</li>
+</ul>
+<h4 id="image-produit">Image produit<a class="headerlink" href="#image-produit" title="Permanent link">¶</a></h4>
+<p>Téléverser une image principale.</p>
+<h4 id="galerie">Galerie<a class="headerlink" href="#galerie" title="Permanent link">¶</a></h4>
+<p>Ajouter plusieurs images.</p>
+<h2 id="section-4">Section 4<a class="headerlink" href="#section-4" title="Permanent link">¶</a></h2>
+<h5 id="categories-et-etiquettes">Catégories et étiquettes<a class="headerlink" href="#categories-et-etiquettes" title="Permanent link">¶</a></h5>
+<p><img alt="" data-zoom-image="data-zoom-image" src="assets/images/woocommerce-tags.png"></p>
+<h6 id="categories">Catégories<a class="headerlink" href="#categories" title="Permanent link">¶</a></h6>
+<p>Permettent d’organiser les produits.</p>
+<p>Exemple :</p>
+<ul>
+<li>Casques</li>
+<li>Micros</li>
+<li>Interfaces audio</li>
+</ul>
+<h6 id="etiquettes-tags">Étiquettes (tags)<a class="headerlink" href="#etiquettes-tags" title="Permanent link">¶</a></h6>
+<p>Permettent une recherche plus précise.</p>
+<p>Exemple :</p>
+<ul>
+<li>studio</li>
+<li>portable</li>
+<li>USB</li>
+</ul>
+<h2 id="section-5">Section 5<a class="headerlink" href="#section-5" title="Permanent link">¶</a></h2>
+<p><img alt="" data-zoom-image="data-zoom-image" src="assets/images/woocommerce-paiement.png"></p>
+<h5 id="paiements">Paiements<a class="headerlink" href="#paiements" title="Permanent link">¶</a></h5>
+<p>WooCommerce supporte plusieurs méthodes :</p>
+<ul>
+<li>PayPal</li>
+<li>Stripe</li>
+<li>paiement à la livraison</li>
+<li>virement bancaire</li>
+</ul>
+<p><strong>Configuration</strong></p>
+<div class="admonition tip">
+<p class="admonition-title">Menu</p>
+<pre><code>WooCommerce → Réglages → Paiements
+</code></pre>
+</div>
+<p>Activer la méthode désirée.</p>
+<h2 id="section-6">Section 6<a class="headerlink" href="#section-6" title="Permanent link">¶</a></h2>
+<h5 id="livraison">Livraison<a class="headerlink" href="#livraison" title="Permanent link">¶</a></h5>
+<p><img alt="" data-zoom-image="data-zoom-image" src="assets/images/wocommerce-livraison.png"></p>
+<p><img alt="" data-zoom-image="data-zoom-image" src="assets/images/wocommerce-livraison-2.png"></p>
+<div class="admonition tip">
+<p class="admonition-title">Menu</p>
+<pre><code>WooCommerce → Réglages → Livraison
+</code></pre>
+</div>
+<p><strong>Configurer :</strong></p>
+<h6 id="zones-de-livraison">Zones de livraison<a class="headerlink" href="#zones-de-livraison" title="Permanent link">¶</a></h6>
+<p>Exemple :</p>
+<ul>
+<li>Canada</li>
+<li>États-Unis</li>
+<li>International</li>
+</ul>
+<h6 id="methodes">Méthodes<a class="headerlink" href="#methodes" title="Permanent link">¶</a></h6>
+<ul>
+<li>tarif fixe </li>
+<li>livraison gratuite</li>
+<li>calcul automatique</li>
+</ul>
+<h2 id="section-7">Section 7<a class="headerlink" href="#section-7" title="Permanent link">¶</a></h2>
+<p><img alt="" data-zoom-image="data-zoom-image" src="assets/images/wommerce-commandes.png"></p>
+<h6 id="gestion-des-commandes">Gestion des commandes<a class="headerlink" href="#gestion-des-commandes" title="Permanent link">¶</a></h6>
+<div class="admonition tip">
+<p class="admonition-title">Menu</p>
+<pre><code>WooCommerce → Commandes
+</code></pre>
+</div>
+<h6 id="statuts">Statuts :<a class="headerlink" href="#statuts" title="Permanent link">¶</a></h6>
+<ul>
+<li>en attente</li>
+<li>en cours</li>
+<li>terminée</li>
+<li>remboursée</li>
+</ul>
+<h2 id="section-8">Section 8<a class="headerlink" href="#section-8" title="Permanent link">¶</a></h2>
+<h6 id="extensions-woocommerce">Extensions WooCommerce<a class="headerlink" href="#extensions-woocommerce" title="Permanent link">¶</a></h6>
+<p>Exemples d’extensions utiles :</p>
+<ul>
+<li>WooCommerce Subscriptions</li>
+<li>Woocommerce Memberships</li>
+<li>WooCommerce Bookings</li>
+<li>Mailchimp for WooCommerce</li>
+</ul></div>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Techniques d’intégration multimédia | Collège Montmorency
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.indexes", "navigation.sections", "content.code.copy"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="../_/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
+      
+        <script src="https://unpkg.com/fireworks-js@2.x/dist/index.umd.js"></script>
+      
+        <script src="https://unpkg.com/lightgallery@2.8.2/lightgallery.min.js"></script>
+      
+        <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+      
+        <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+      
+        <script src="../_/extra.js"></script>
+      
+        <script src="../_/image-zoom.js"></script>
+      
+        <script src="../_/gallery.js"></script>
+      
+        <script src="../_/tooltip.js"></script>
+      
+    
+  </body>
+</html>
