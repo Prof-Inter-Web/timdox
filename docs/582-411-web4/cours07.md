@@ -251,6 +251,10 @@ Elementor permet de créer un site WordPress visuellement en utilisant des conte
 
 ![](./assets/images/elementor-css.png){data-zoom-image}
 
+### Custom CSS for Elementor
+
+![](./assets/images/elementor-css.png){data-zoom-image}
+
 
 ## Exercice : Elementor
 
