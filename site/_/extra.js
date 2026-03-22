@@ -440,5 +440,3 @@ function runOnce() {
   removeMainTabsNavigation();
   replaceLogoLinkWithSpan();
 }
-
-

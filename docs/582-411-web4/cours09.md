@@ -57,3 +57,12 @@
 ## Animations
 
 ![](./assets/images/animations-addons.png){data-zoom-image}
+
+## Exercice : AI-MAX
+
+<div class="grid grid-1-2" markdown>
+  ![](./assets/images/Aimax-Video-Poster-Img-3.png)
+
+  <small>Exercice - Site Web</small><br>
+  **[AI-MAX](./exercices/ai-max.md){.stretched-link .back}**
+</div>
