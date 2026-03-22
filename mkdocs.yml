@@ -65,6 +65,7 @@ markdown_extensions:
   - mdx_truly_sane_lists
   - pymdownx.arithmatex:
       generic: true
+  
 
 extra:
   generator: false
@@ -93,6 +94,7 @@ extra_javascript:
   - _/image-zoom.js
   - _/gallery.js
   - _/tooltip.js
+  - _/color-preview.js
 
 plugins:
   - material/offline
