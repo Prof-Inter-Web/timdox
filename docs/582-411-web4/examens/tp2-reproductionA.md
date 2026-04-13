@@ -135,6 +135,10 @@ Bon travail!
 
 🧮 Total : **__** / 100
 
+!!! Tip "Information"
+
+    Votre note est calculée sur 100 points, puis convertie sur 30 %, qui représente la pondération de ce travail dans votre note finale.
+
 ---
 
 ## 🌐 Accéder à votre cPanel et installer WordPress
