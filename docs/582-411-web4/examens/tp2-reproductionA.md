@@ -17,9 +17,15 @@
 ![](../assets/images/OmeroA-Footer.png){data-zoom-image}
 
 ## Lien vers le site web
+
 [Omero A](https://tp2steph.tim-momo.com/xlrf2-24/)
 
+## Matériel
+
+[Omero A](../assets/documents/Omero-1.zip)
+
 ## Objectif du travail
+
 Dans ce travail pratique, vous devrez recréer un site web existant en utilisant les outils vus en classe.
 
 L’objectif est de développer votre capacité à :
@@ -31,8 +37,9 @@ L’objectif est de développer votre capacité à :
 !!! Tip "Indice"
 
     Les marges externes peuvent être négatives, ce qui permet de déplacer des éléments ou de les superposer.
- 
+
 ## Approche demandée
+
 Vous devrez analyser visuellement le site fourni et tenter de reproduire le plus fidèlement possible :
 
 * La mise en page (layout)
@@ -43,8 +50,9 @@ Vous devrez analyser visuellement le site fourni et tenter de reproduire le plus
 * Les effets visuels (ombres, animations, etc.)
 
 👉 Il ne s’agit pas de copier le code, mais bien de recréer à partir de l’observation.
- 
+
 ## Outils obligatoires
+
 Vous devez utiliser les outils suivants :
 
 * Thème WordPress : Astra
@@ -54,35 +62,39 @@ Vous devez utiliser les outils suivants :
 * Contact Form 7
 
 ⚠️ Aucun autre constructeur ou thème ne doit être utilisé sans autorisation.
- 
+
 ## Identité visuelle à respecter
+
 Vous devez impérativement utiliser :
 
 ### Couleurs
+
 * <span style="display:inline-block;width:30px;height:30px;background:#FFF;border:1px solid #cfcfcf;"></span> #FFF
 * <span style="display:inline-block;width:30px;height:30px;background:#F6F6F6;border:1px solid #cfcfcf;"></span> #F6F6F6
 * <span style="display:inline-block;width:30px;height:30px;background:#5A55FB;"></span> #5A55FB
 * <span style="display:inline-block;width:30px;height:30px;background:#C47CFF;"></span> #C47CFF
 * <span style="display:inline-block;width:30px;height:30px;background:#0C172E;"></span> #0C172E
-* <span style="display:inline-block;width:30px;height:30px;background:#000;"></span> #000
-
+* <span style="display:inline-block;width:30px;height:30px;background:#000;"></span> #000000
 
 ### Typographie
+
 * Police par défaut
 * Londrina Solid
 * Londrina Outline
 
 👉 Ces éléments doivent être respectés pour assurer une reproduction fidèle.
- 
+
 ## Consignes importantes
+
 * Le site doit être responsive (adapté mobile et tablette)
 * Vous devez structurer votre contenu de façon logique
 * Les sections doivent être clairement identifiables
 * Les éléments doivent être bien alignés et espacés
 
 * La présence en classe est obligatoire pour tous les cours dédiés au projet (présence complète, jusqu’à la fin).
- 
+
 ## Critères d’évaluation
+
 Votre travail sera évalué selon :
 
 * Fidélité visuelle au modèle
@@ -90,19 +102,20 @@ Votre travail sera évalué selon :
 * Utilisation adéquate des outils
 * Propreté du design
 * Responsivité (mobile/tablette)
- 
+
 ## 💡 Conseils
+
 * Prenez le temps d’analyser avant de commencer
 * Travaillez section par section
 * Zoomez sur les détails (marges, tailles, alignements)
 * Testez régulièrement votre site
- 
+
 ## 📅 Remise
+
 * 20 avril 2026
 * Vous devez soumettre, dans le devoir Teams qui vous sera envoyé, le lien de votre site web, ainsi que les informations de connexion (nom d’utilisateur et mot de passe) permettant d’y accéder.
- 
-Bon travail !
 
+Bon travail!
 
 ## Grille d’évaluation — TP2 : Reproduction d’un site web
 
@@ -120,9 +133,7 @@ Bon travail !
 | **Cohérence visuelle globale** (5 pts)                   | Design homogène et professionnel  | Cohérent             | Quelques incohérences  | Incohérent            | /5     |
 | **Effets visuels (ombres, hover, animations)** (5 pts)   | Très bien reproduits              | Présents             | Peu maîtrisés          | Absents               | /5     |
 
-
-
-🧮 Total : ______ / 100
+🧮 Total : **__** / 100
 
 ---
 
@@ -207,7 +218,3 @@ Bon travail !
 👉 votresite.com/tp2/wp-admin
 
 * Connectez-vous avec vos identifiants
-
----
-
-
