@@ -1,5 +1,5 @@
 # Cours 12 | Examen
-
+[stop]
 ![](./assets/images/calm.gif){.w-100}
 
 [STOP]

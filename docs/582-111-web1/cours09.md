@@ -1,5 +1,5 @@
 # Cours 9 | CSS
-
+[stop]
 ## Dégradé de couleur
 
 Il est possible de générer un dégradé de couleur à titre d’image d’arrière-plan en utilisant les fonctions CSS `linear-gradient()` et `radial-gradient()`.

@@ -1,5 +1,5 @@
 # Cours 6
-
+[stop]
 [^wireframe]: [Maquette conceptuelle | OQLF](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26529188/maquette-conceptuelle)
 
 [^wfbp]: [Wireframing Best Practices | uxcel](https://app.uxcel.com/courses/designing-wireframes/wireframing-best-practices-816)

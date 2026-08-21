@@ -1,5 +1,5 @@
 # Examen
-
+[stop]
 ![](./assets/images/grogu.gif){.w-100}
 
 [STOP]

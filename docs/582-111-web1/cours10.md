@@ -1,5 +1,5 @@
 # Cours 10
-
+[stop]
 ## Rappel de l'inspecteur
 
 ![](./assets/images/inspector-elements.png)

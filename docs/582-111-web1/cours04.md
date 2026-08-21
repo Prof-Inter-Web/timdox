@@ -1,5 +1,5 @@
 # Cours 4
-
+[stop]
 *[SVG]: Scalable Vector Graphics
 
 ## Formats d’image
