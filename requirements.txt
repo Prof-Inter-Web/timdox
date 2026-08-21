@@ -1,0 +1,7 @@
+mkdocs
+mkdocs-material
+pymdown-extensions
+mdx-truly-sane-lists
+mkdocs-video
+mkdocs-audio
+render-stopper
