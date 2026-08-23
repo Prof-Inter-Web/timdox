@@ -147,7 +147,7 @@ Un langage de programmation (ou code), c'est la même chose qu'une langue écrit
 
 Dans le cours Web 1, nous allons apprendre une nouvelle langue ! Celle qui permet de parler à un navigateur Web.
 
-La structure MINIMALE d'une site web s'écrit dans un langage qu'on appelle **HTML**.
+La structure MINIMALE d'un site web s'écrit dans un langage qu'on appelle **HTML**.
 
 Voici à quoi ça ressemble :
 
@@ -368,7 +368,7 @@ Les [onglets](https://daisyui.com/components/tab/) (ou _Tabs_) permettent de nav
 
     Site Web : <https://discord.com/community>
 
-    [Quiz](https://app.wooclap.com/WEB1COMP){ .md-button .md-button--primary }
+    [Quiz](https://app.wooclap.com/OHKJLRI){ .md-button .md-button--primary }
 
 ## W3C
 
