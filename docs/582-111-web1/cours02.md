@@ -1,5 +1,4 @@
 # Cours 2 | Structure
-[stop]
 
 <style>.md-nav .md-nav .md-nav { display: none; }</style>
 
