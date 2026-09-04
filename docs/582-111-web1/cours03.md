@@ -1,5 +1,5 @@
 # Cours 3
-[stop]
+
 *[DOM]: Document Object Model
 
 ## Tutorat
