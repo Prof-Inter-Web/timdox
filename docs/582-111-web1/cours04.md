@@ -422,6 +422,8 @@ Par défaut, la majorité des navigateurs mettent en italique le contenu des bal
   **[La la land](./exercices/la-la-land/index.md){.stretched-link .back}**
 </div>
 
+[Stop]
+
 ## Travail pratique
 
 <div class="grid grid-1-2" markdown>
