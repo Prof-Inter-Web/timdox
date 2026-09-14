@@ -6,6 +6,8 @@
 
 Le but de cet exercice est de produire une page Web en HTML présentant les îles Galápagos.
 
+[Dossier de départ](./galapagos_depart.zip){ .md-button .md-button--primary }
+
 ## Résultat attendu
 
 <https://web1.tim-momo.com/galapagos/>

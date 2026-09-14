@@ -4,6 +4,8 @@
 
 L'objectif de cet exercice est d'implémenter adéquatement des médias dans une page Web.
 
+[Dossier de départ](./lalaland_depart.zip){ .md-button .md-button--primary }
+
 ## Résultat attendu
 
 <https://web1.tim-momo.com/lalaland/>
