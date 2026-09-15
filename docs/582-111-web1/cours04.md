@@ -436,7 +436,7 @@ Par défaut, la majorité des navigateurs mettent en italique le contenu des bal
   **[Les Baleines](./exercices/les-baleines/index.md){.stretched-link .back}**
 </div>
 
-[STOP]
+
 
 ## Travail pratique
 
