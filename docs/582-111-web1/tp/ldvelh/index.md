@@ -19,8 +19,7 @@ L'évaluation sommative complète (TP1a + TP1b) compte pour 20% de la note final
 
 TP1a<br>
 **[Planification (5%)](./planification.md){.stretched-link .back}**<br>
-<small>Stéphane - Remise 22 septembre 23:59</small><br>
-<small>JF - Remise 24 septembre 23:59</small>
+<small>Stéphane - Remise 28-29 septembre 23:59</small><br>
 
 </div>
 
@@ -29,7 +28,7 @@ TP1a<br>
 
 TP1b<br>
 **[Développement (15%)](./developpement.md){.stretched-link .back}**<br>
-<small>Stéphane - Remise 6 octobre à 23:59</small><br>
-<small>JF - Remise 8 octobre à 23:59</small>
+<small>Stéphane - Remise 15-16 octobre à 23:59</small><br>
+
 
 </div>
