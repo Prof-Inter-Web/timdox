@@ -48,18 +48,6 @@ Chaque scène doit comporter :
 1. Vous vous réveillez dans une cellule humide, une torche vacillante fixée au mur.
 1. Vous atteignez la tour d’un mage, dont la porte s’ouvre d’elle-même à votre approche.
 
-### Exemples de fins ouvertes
-
-1. Un portail de pierres anciennes s’illumine et s’ouvre devant vous.
-1. La forêt se tait, puis une silhouette encapuchonnée vous fait signe de la suivre.
-1. Les flammes de votre torche révèlent un escalier descendant plus bas que la terre elle-même.
-1. Un cor de guerre retentit au loin, et tout se met à vibrer autour de vous.
-1. Une rune gravée sur votre bras s’enflamme et projette une lumière aveuglante.
-1. Un chevalier spectral apparaît et vous désigne une route encore inexplorée.
-1. Le brouillard s’écarte et dévoile une cité oubliée à l’horizon.
-1. Une gemme éclate dans vos mains, ouvrant une faille lumineuse dans le sol.
-1. Un corbeau noir vous fixe, puis s’envole en traçant une lueur dans le ciel.
-1. Les cloches d’une cathédrale invisible résonnent, vous guidant vers l’inconnu.
 
 ## Exigences
 
@@ -68,7 +56,7 @@ Chaque scène doit comporter :
 - [ ] Au moins 1 fin tragique (le joueur perd).
 - [ ] Colorer les cercles de fin tragique en rouge 🔴.
 - [ ] 1 fin ouverte (permettant de continuer vers une autre histoire).
-- [ ] Colorer le cercle de fin ouverte en vert 🟢.
+- [ ] Colorer le cercle de fin en vert 🟢.
 - [ ] Au moins 1 scène qui ramène en arrière (le joueur revient à une scène précédente).
 - [ ] Colorer le cercle qui ramène en arrière en mauve 🟣.
 
@@ -90,7 +78,7 @@ Remise 28-29 septembre 23:59
 | **Nombre de scènes**       | Entre 6 et 12 scènes présentes dans le schéma.                               | /1     |
 | **Commencement**           | Une scène d’introduction claire (mise en contexte).                          | /1     |
 | **Fin tragique 🔴**        | Au moins une fin où l’aventure se termine mal.                               | /1     |
-| **Fin ouverte 🟢**         | Une fin qui permet de continuer vers une autre histoire.                     | /1     |
+| **Fin          🟢**        | Une fin qui permet de continuer vers une autre histoire.                     | /1     |
 | **Retour en arrière 🟣**   | Au moins une scène ramène vers une scène précédente.                         | /1     |
 | **Titres de scène**        | Chaque scène possède un titre significatif.                                  | /1     |
 | **Descriptions de scène**  | Mini-paragraphe (max 2 phrases) cohérent et clair par scène.                 | /1     |
