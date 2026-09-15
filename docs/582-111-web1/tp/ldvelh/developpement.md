@@ -10,7 +10,6 @@ Une scène ressemblera à ceci :
 
 [Exemple de projet](https://web1.tim-momo.com/ldvelh/histoires/exemple/)
 
-[Exemple de structure HTML (incomplet)](./ldvelh_depart.zip)
 
 
 ## Consignes
@@ -45,7 +44,7 @@ Une scène ressemblera à ceci :
 
 Remettez un fichier `.zip` de votre dossier. Exemple : `tp1-XXXXX.zip`
 
-Groupe avec Stéphane - Remise 15-16 octobre à 23:59
+Remise 15-16 octobre à 23:59
 
 
 
