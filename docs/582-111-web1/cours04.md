@@ -422,6 +422,20 @@ Par défaut, la majorité des navigateurs mettent en italique le contenu des bal
   **[La la land](./exercices/la-la-land/index.md){.stretched-link .back}**
 </div>
 
+<div class="grid grid-1-2" markdown>
+  ![](./exercices/apollo11/assets/img/apollo11.jpg)
+
+  <small>Exercice - HTML</small><br>
+  **[Apollo 11](./exercices/apollo11/index.md){.stretched-link .back}**
+</div>
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercices/apollo11/assets/img/rorqual.jpg)
+
+  <small>Exercice - HTML</small><br>
+  **[Les Baleines](./exercices/les-baleines/index.md){.stretched-link .back}**
+</div>
+
 [STOP]
 
 ## Travail pratique
