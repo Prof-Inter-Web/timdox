@@ -80,8 +80,7 @@ Chaque scène doit comporter :
 
 ## Remise
 
-* Groupe de Stéphane - Remise 22 septembre 23:59
-* Groupe de Jean-François - Remise 24 septembre 23:59
+Remise 28-29 septembre 23:59
 
 ## Grille d’évaluation
 
