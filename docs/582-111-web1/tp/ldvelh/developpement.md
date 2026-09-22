@@ -14,7 +14,7 @@ Une scène ressemblera à ceci :
 
 ## Consignes
 
-- [ ] Créez un dossier nommé tp1-XXXXX (remplacez XXXXX par le code associé à votre nom).
+- [ ] Créez un dossier nommé tp1-XXXXX (remplacez XXXXX par votre nom).
 - [ ] Placez dans ce dossier :
   - [ ] un fichier `index.html` pour votre première page
   - [ ] les autres fichiers `.html` de chaque scène de votre histoire
@@ -35,10 +35,7 @@ Une scène ressemblera à ceci :
 - [ ] Tous les chemins doivent être relatifs
 - [ ] Tous les fichiers du projet doivent respecter la notation kebab-case
 - [ ] Toutes les images du projet doivent avoir un texte alternatif
-- [ ] La dernière scène doit contenir un lien vers l’index.html de l’étudiant suivant (Suite). Pour ce faire, il faudra remonter d'un niveau relatif. Voici un exemple :
-    ```html title="Exemple de lien final"
-    <a href="../tp1-12345/index.html">Suite ...</a>
-    ```
+- [ ] La dernière scène doit contenir un lien vers l’index.html
 
 ## Remise
 
