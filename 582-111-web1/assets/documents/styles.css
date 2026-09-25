@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+
+html {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background: url("https://images.pexels.com/photos/1261578/pexels-photo-1261578.jpeg") no-repeat fixed center center #f4f4f4;
+    background-size: cover;
+    margin: 1rem;
+    font-size: 20px;
+}
+
+body {
+    border-radius: 1rem;
+    padding: 2rem;
+    flex-basis: 26rem;
+    background-color: rgba(255,255,255,0.75);
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
+}
+
+h1 { 
+    margin: 0 0 1em;
+    font-family: "Caprasimo", serif;
+    font-weight: 400;
+    font-style: normal;
+}
