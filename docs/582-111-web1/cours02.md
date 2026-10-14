@@ -15,7 +15,7 @@
 
 ![](./assets/images/html.jpg){ .w-100 }
 
-HTML est le langage utilisé pour **structurer une page Web et son contenu**.  
+HTML (HyperText Markup Language) est le langage utilisé pour **structurer une page Web et son contenu**.  
 On peut par exemple organiser le contenu en un ensemble de paragraphes, une liste d'éléments, insérer des images ou des tableaux de données[^defhtml].
 
 [^defhtml]: https://developer.mozilla.org/fr/docs/Learn_web_development/Getting_started/Your_first_website/Creating_the_content
