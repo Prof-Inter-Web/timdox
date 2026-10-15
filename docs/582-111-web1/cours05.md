@@ -117,11 +117,7 @@ Balises :
 </table>
 ```
 
-<iframe height="300" style="width: 100%;" scrolling="no" title="HTML - Table - colspan" src="https://codepen.io/tim-momo/embed/azdobyg?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/azdobyg">
-  HTML - Table - colspan</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
+![](./assets/images/table-codepen.jpg){.w-100}
 
 ### Titre de tableau
 
@@ -143,11 +139,7 @@ Un tableau peut avoir un titre descriptif avec `<caption>`. Ça améliore la com
 </table>
 ```
 
-<iframe height="300" style="width: 100%;" scrolling="no" title="HTML - Table" src="https://codepen.io/tim-momo/embed/MYKgYyN?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/MYKgYyN">
-  HTML - Table</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
+![](./assets/images/table-caption-codepen.jpg){.w-100}
 
 ### Organisation d’un tableau
 
@@ -188,11 +180,7 @@ Un tableau peut être découpé en 3 sections sémantiques :
 </table>
 ```
 
-<iframe height="300" style="width: 100%;" scrolling="no" title="HTML - Table - thead tbody tfoot" src="https://codepen.io/tim-momo/embed/JoGPLOg?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/JoGPLOg">
-  HTML - Table - thead tbody tfoot</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
+![](./assets/images/table-thead-tbody-tfoot.jpg){.w-100}
 
 ### Fusion
 
@@ -236,11 +224,7 @@ Deux attributs nous permettent de fusionner des cellules :
 </table>
 ```
 
-<iframe height="300" style="width: 100%;" scrolling="no" title="HTML - Table - colspan" src="https://codepen.io/tim-momo/embed/LEGPYxY?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/LEGPYxY">
-  HTML - Table - colspan</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
+![](./assets/images/table-colspan.jpg){.w-100}
 
 #### Fusion de rangé
 
@@ -273,11 +257,7 @@ Deux attributs nous permettent de fusionner des cellules :
 </table>
 ```
 
-<iframe height="300" style="width: 100%;" scrolling="no" title="HTML - Table - colspan" src="https://codepen.io/tim-momo/embed/PwZYwWB?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/PwZYwWB">
-  HTML - Table - colspan</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
+![](./assets/images/table-rowspan.jpg){.w-100}
 
 ## Formulaires
 
@@ -334,11 +314,7 @@ Elle utilise également l'attribut `id` afin de pouvoir l'associer à son libell
 
 #### Texte
 
-<iframe class="aspect-4-1" height="300" style="width: 100%;" scrolling="no" title="HTML - Input - text" src="https://codepen.io/tim-momo/embed/XJXrdJg?default-tab=html%2Cresult&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/XJXrdJg">
-  HTML - Input - text</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
+![](./assets/images/form-username.jpg){.w-100}
 
 L'attribut `placeholder="..."` affiche un texte temporaire d’exemple dans un champ.
 
@@ -350,11 +326,7 @@ L'attribut `readonly` ne désactive pas le champ, mais il ne permet plus d'édit
 
 #### Bouton de soumission
 
-<iframe height="300" style="width: 100%;" scrolling="no" title="HTML - Input - submit" src="https://codepen.io/tim-momo/embed/QwyLNJp?default-tab=html%2Cresult&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/QwyLNJp">
-  HTML - Input - submit</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
+![](./assets/images/form-submit.jpg){.w-100}
 
 L'attribut `value="..."` permet de changer le texte du bouton.
 
@@ -362,12 +334,7 @@ L’attribut `required` indique qu’un champ doit obligatoirement être rempli.
 
 #### Courriel
 
-<iframe class="aspect-4-1" height="300" style="width: 100%;" scrolling="no" title="HTML - Input - email" src="https://codepen.io/tim-momo/embed/myVbPQd?default-tab=html%2Cresult&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/myVbPQd">
-  HTML - Input - email</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
-
+![](./assets/images/form-email.jpg){.w-100}
 #### Mot de passe
 
 <iframe class="aspect-4-1" height="300" style="width: 100%;" scrolling="no" title="HTML - Input - text" src="https://codepen.io/tim-momo/embed/QwyLNBd?default-tab=html%2Cresult&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
@@ -378,83 +345,47 @@ L’attribut `required` indique qu’un champ doit obligatoirement être rempli.
 
 #### Case à cocher
 
-<iframe class="aspect-16-9" height="300" style="width: 100%;" scrolling="no" title="HTML - Input - checkbox" src="https://codepen.io/tim-momo/embed/ZYQzWVr?default-tab=html%2Cresult&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/ZYQzWVr">
-  HTML - Input - checkbox</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
+![](./assets/images/form-checkbox.jpg){.w-100}
 
 L'attribut `checked` permet de présélectionner une case au chargement de la page.
 
 ### Bouton radio
 
-<iframe class="aspect-16-9" height="300" style="width: 100%;" scrolling="no" title="HTML - Input - radio" src="https://codepen.io/tim-momo/embed/PwZYzwz?default-tab=html%2Cresult&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/PwZYzwz">
-  HTML - Input - radio</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
+![](./assets/images/form-radio.jpg){.w-100}
 
 L'attribut `checked` permet de présélectionner un bouton radio au chargement de la page.
 
 ### Champ nombre
 
-<iframe class="aspect-4-1" height="300" style="width: 100%;" scrolling="no" title="HTML - Input - text" src="https://codepen.io/tim-momo/embed/ogbvdvL?default-tab=html%2Cresult&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/ogbvdvL">
-  HTML - Input - text</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
+![](./assets/images/form-quantity.jpg){.w-100}
 
 Les attributs `min="0"` et `max="100"` permettent de spécifier des limites au champ nombre
 
 ### Champ date
 
-<iframe class="aspect-4-1" height="300" style="width: 100%;" scrolling="no" title="HTML - Input - number" src="https://codepen.io/tim-momo/embed/jEWNxPQ?default-tab=html%2Cresult&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/jEWNxPQ">
-  HTML - Input - number</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
+![](./assets/images/form-date.jpg){.w-100}
 
 ### Champ file
 
-<iframe class="aspect-4-1" height="300" style="width: 100%;" scrolling="no" title="HTML - Input - date" src="https://codepen.io/tim-momo/embed/WbreJra?default-tab=html%2Cresult&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/WbreJra">
-  HTML - Input - date</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
+![](./assets/images/form-file.jpg){.w-100}
 
 ### Champ plage
 
-<iframe class="aspect-4-1" height="300" style="width: 100%;" scrolling="no" title="HTML - Input - range" src="https://codepen.io/tim-momo/embed/OPMLZXZ?default-tab=html%2Cresult&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/OPMLZXZ">
-  HTML - Input - range</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
+![](./assets/images/form-range.jpg){.w-100}
 
 ### Liste de sélection
 
-<iframe class="aspect-3-1" height="300" style="width: 100%;" scrolling="no" title="HTML - select" src="https://codepen.io/tim-momo/embed/RNrbyJM?default-tab=html%2Cresult&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/RNrbyJM">
-  HTML - select</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
+![](./assets/images/form-select.jpg){.w-100}
 
 L'attribut `selected` sur une option permet de la présélectionner au chargement de la page.
 
 #### Liste de sélection multiple
 
-<iframe class="aspect-3-1" height="300" style="width: 100%;" scrolling="no" title="HTML - select" src="https://codepen.io/tim-momo/embed/ByjBxGM?default-tab=html%2Cresult&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/ByjBxGM">
-  HTML - select</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
+![](./assets/images/form-multi-select.jpg){.w-100}
 
 ### Zone de texte
 
-<iframe height="300" style="width: 100%;" scrolling="no" title="HTML - textarea" src="https://codepen.io/tim-momo/embed/pvgzVYv?default-tab=html%2Cresult&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/pvgzVYv">
-  HTML - textarea</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
+![](./assets/images/form-textarea.jpg){.w-100}
 
 ### Attributs communs à plusieurs balises
 
@@ -511,11 +442,7 @@ Il est recommandé d'utiliser `<legend>` à l’intérieur pour donner un titre 
 </form>
 ```
 
-<iframe class="aspect-4-3" height="300" style="width: 100%;" scrolling="no" title="HTML - Input - date" src="https://codepen.io/tim-momo/embed/gbPOjBw?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/gbPOjBw">
-  HTML - Input - date</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
+![](./assets/images/form-fieldset.jpg){.w-100}
 
 ## Quelques outils
 
