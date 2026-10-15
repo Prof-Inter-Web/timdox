@@ -117,7 +117,7 @@ Balises :
 </table>
 ```
 
-![](./assets/images/table-codepen.jpg){.w-100}
+![](./assets/images/table-codepen.png){.w-100}
 
 ### Titre de tableau
 
@@ -139,7 +139,7 @@ Un tableau peut avoir un titre descriptif avec `<caption>`. Ça améliore la com
 </table>
 ```
 
-![](./assets/images/table-caption-codepen.jpg){.w-100}
+![](./assets/images/table-caption-codepen.png){.w-100}
 
 ### Organisation d’un tableau
 
@@ -180,7 +180,7 @@ Un tableau peut être découpé en 3 sections sémantiques :
 </table>
 ```
 
-![](./assets/images/table-thead-tbody-tfoot.jpg){.w-100}
+![](./assets/images/table-thead-tbody-tfoot.png){.w-100}
 
 ### Fusion
 
@@ -224,7 +224,7 @@ Deux attributs nous permettent de fusionner des cellules :
 </table>
 ```
 
-![](./assets/images/table-colspan.jpg){.w-100}
+![](./assets/images/table-colspan.png){.w-100}
 
 #### Fusion de rangé
 
@@ -257,7 +257,7 @@ Deux attributs nous permettent de fusionner des cellules :
 </table>
 ```
 
-![](./assets/images/table-rowspan.jpg){.w-100}
+![](./assets/images/table-rowspan.png){.w-100}
 
 ## Formulaires
 
@@ -314,7 +314,7 @@ Elle utilise également l'attribut `id` afin de pouvoir l'associer à son libell
 
 #### Texte
 
-![](./assets/images/form-username.jpg){.w-100}
+![](./assets/images/form-username.png){.w-100}
 
 L'attribut `placeholder="..."` affiche un texte temporaire d’exemple dans un champ.
 
@@ -326,7 +326,7 @@ L'attribut `readonly` ne désactive pas le champ, mais il ne permet plus d'édit
 
 #### Bouton de soumission
 
-![](./assets/images/form-submit.jpg){.w-100}
+![](./assets/images/form-submit.png){.w-100}
 
 L'attribut `value="..."` permet de changer le texte du bouton.
 
@@ -334,7 +334,7 @@ L’attribut `required` indique qu’un champ doit obligatoirement être rempli.
 
 #### Courriel
 
-![](./assets/images/form-email.jpg){.w-100}
+![](./assets/images/form-email.png){.w-100}
 #### Mot de passe
 
 <iframe class="aspect-4-1" height="300" style="width: 100%;" scrolling="no" title="HTML - Input - text" src="https://codepen.io/tim-momo/embed/QwyLNBd?default-tab=html%2Cresult&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
@@ -345,47 +345,47 @@ L’attribut `required` indique qu’un champ doit obligatoirement être rempli.
 
 #### Case à cocher
 
-![](./assets/images/form-checkbox.jpg){.w-100}
+![](./assets/images/form-checkbox.png){.w-100}
 
 L'attribut `checked` permet de présélectionner une case au chargement de la page.
 
 ### Bouton radio
 
-![](./assets/images/form-radio.jpg){.w-100}
+![](./assets/images/form-radio.png){.w-100}
 
 L'attribut `checked` permet de présélectionner un bouton radio au chargement de la page.
 
 ### Champ nombre
 
-![](./assets/images/form-quantity.jpg){.w-100}
+![](./assets/images/form-quantity.png){.w-100}
 
 Les attributs `min="0"` et `max="100"` permettent de spécifier des limites au champ nombre
 
 ### Champ date
 
-![](./assets/images/form-date.jpg){.w-100}
+![](./assets/images/form-date.png){.w-100}
 
 ### Champ file
 
-![](./assets/images/form-file.jpg){.w-100}
+![](./assets/images/form-file.png){.w-100}
 
 ### Champ plage
 
-![](./assets/images/form-range.jpg){.w-100}
+![](./assets/images/form-range.png){.w-100}
 
 ### Liste de sélection
 
-![](./assets/images/form-select.jpg){.w-100}
+![](./assets/images/form-select.png){.w-100}
 
 L'attribut `selected` sur une option permet de la présélectionner au chargement de la page.
 
 #### Liste de sélection multiple
 
-![](./assets/images/form-multi-select.jpg){.w-100}
+![](./assets/images/form-multi-select.png){.w-100}
 
 ### Zone de texte
 
-![](./assets/images/form-textarea.jpg){.w-100}
+![](./assets/images/form-textarea.png){.w-100}
 
 ### Attributs communs à plusieurs balises
 
@@ -442,7 +442,7 @@ Il est recommandé d'utiliser `<legend>` à l’intérieur pour donner un titre 
 </form>
 ```
 
-![](./assets/images/form-fieldset.jpg){.w-100}
+![](./assets/images/form-fieldset.png){.w-100}
 
 ## Quelques outils
 
