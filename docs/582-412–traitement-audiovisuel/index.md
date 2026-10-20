@@ -1,29 +1,34 @@
-# Web 4
+# Traitement AudioVisuel
 
 ## Descriptif du cours
 
-L’élève apprend à utiliser un système de gestion de contenu pour créer un site Web et le diffuser en ligne.
+L’élève apprend à concevoir et réaliser des performances audiovisuelles et des installations interactives. 
 
-Au terme de ce cours, l’élève programme l’interactivité d’un site Web à l’aide d’un système de gestion de contenu et de librairies, procède à sa mise en ligne, corrige les erreurs liées à la programmation et collabore à sa présentation.
+L'élève est appelé à utiliser une caméra comme dispositif interactif, à 
+appliquer des effets en temps réel, à manipuler des flux audio et 
+vidéo et à déclencher des vidéos et échantillons en fonction 
+d’interactions.
+_________________________________________________________________________________________________________________
 
 | Spécifications        | Valeur  |
 | --------------------- | ------- |
-| Code                  | 582-411 |
-| Pondération           | 2-2-2   |
-| Unités                | 2       |
+| Code                  | 582-412 |
+| Pondération           | 2-2-1   |
+| Unités                | 1 2/3     |
 | Heures d’enseignement | 60      |
 | Session               | 4       |
 
 ## Objectif intégrateur
 
-Produire un site Web à l’aide d’un système de gestion de contenu (CMS).
+Réaliser un projet audiovisuel interactif personnel sur un 
+dispositif commun.
 
 ## Attitudes professionnelles
 
-* Esprit d’équipe
-* Autonomie
+* Créativité
+* Sens esthétique
 * Adaptation
-* Débrouillardise
+
 
 ## Enseignant 🌱
 
