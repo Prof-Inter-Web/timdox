@@ -39,6 +39,6 @@ Fichier `.zip`
 
 Nomenclature : `nomdefamille-prenom_devoir02.zip`
 
-Date limite : **29 octobre à 23:59**
+Date limite : **Prochain cours**
 
 Teams : **Devoir 02**
