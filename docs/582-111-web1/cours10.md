@@ -18,10 +18,8 @@ Remplir le formulaire :
 
 [TUTORAT : QUELS SERAIENT LES MOMENTS LES PLUS UTILES ?](https://forms.cloud.microsoft/pages/responsepage.aspx?id=x5Wp_94QyE6V2yjtBXZFXSEqKhGR-JdHt7yLDFj6JBpUOEtKRENVTU83MzNJQkpEWFJDR05YQjlMVi4u&route=shorturl)
 
----
 <br>
-<br>
-<br>
+
 
 ## Rappel de l'inspecteur
 
