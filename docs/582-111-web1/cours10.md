@@ -3,7 +3,7 @@
 
 ![](https://png.pngtree.com/background/20230519/original/pngtree-an-image-of-a-video-game-controller-that-consists-of-many-picture-image_2667717.jpg)
 
-## 📚 Ambiance de travail
+## Centre d'aide
 
 Nous vous rappelons que cet espace n'est pas une salle de jeux. Le bruit, les jeux vidéo et les distractions excessives nuisent à la concentration de tous.
 
