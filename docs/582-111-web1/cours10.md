@@ -23,7 +23,6 @@ Remplir le formulaire :
 
 ## Rappel de l'inspecteur
 
-v
 
 * Faire un clic droit sur la souris 🖱️ et choisir l'option **Inspecter**.
 * Utiliser le raccourci clavier ⌨️
