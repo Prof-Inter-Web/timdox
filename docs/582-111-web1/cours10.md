@@ -1,8 +1,26 @@
 # Cours 10
 [stop]
+
+![](https://png.pngtree.com/background/20230519/original/pngtree-an-image-of-a-video-game-controller-that-consists-of-many-picture-image_2667717.jpg)
+
+## 📚 Ambiance de travail
+
+Nous vous rappelons que cet espace n'est pas une salle de jeux. Le bruit, les jeux vidéo et les distractions excessives nuisent à la concentration de tous.
+
+Cet environnement est mis à votre disposition pour favoriser l'étude, le travail individuel et la collaboration dans le respect des autres. Chacun a la responsabilité de contribuer à un climat calme et propice aux apprentissages.
+
+Lorsque les enseignants constatent que l'ambiance ne correspond plus à un contexte pédagogique, ils interviendront afin de rappeler les attentes et de maintenir un environnement favorable à la réussite de tous. Merci de votre collaboration.
+
+
+## Tutorat
+
+Remplir le formulaire :
+
+[TUTORAT : QUELS SERAIENT LES MOMENTS LES PLUS UTILES ?](https://forms.cloud.microsoft/pages/responsepage.aspx?id=x5Wp_94QyE6V2yjtBXZFXSEqKhGR-JdHt7yLDFj6JBpUOEtKRENVTU83MzNJQkpEWFJDR05YQjlMVi4u&route=shorturl)
+
 ## Rappel de l'inspecteur
 
-![](./assets/images/inspector-elements.png)
+v
 
 * Faire un clic droit sur la souris 🖱️ et choisir l'option **Inspecter**.
 * Utiliser le raccourci clavier ⌨️
