@@ -9,7 +9,9 @@ Nous vous rappelons que cet espace n'est pas une salle de jeux. Le bruit, les je
 
 Cet environnement est mis à votre disposition pour favoriser l'étude, le travail individuel et la collaboration dans le respect des autres. Chacun a la responsabilité de contribuer à un climat calme et propice aux apprentissages.
 
-Lorsque les enseignants constatent que l'ambiance ne correspond plus à un contexte pédagogique, ils interviendront afin de rappeler les attentes et de maintenir un environnement favorable à la réussite de tous. Merci de votre collaboration.
+Lorsque les enseignants constatent que l'ambiance ne correspond plus à un contexte pédagogique, ils interviendront afin de rappeler les attentes et de maintenir un environnement favorable à la réussite de tous. 
+
+Merci de votre collaboration.
 
 
 ## Tutorat
