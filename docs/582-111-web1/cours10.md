@@ -1,5 +1,5 @@
 # Cours 10
-[stop]
+
 
 ![](https://png.pngtree.com/background/20230519/original/pngtree-an-image-of-a-video-game-controller-that-consists-of-many-picture-image_2667717.jpg)
 
