@@ -3,4 +3,4 @@
 ![](./assets/images/traitement-audio.png){ data-zoom-image }
 
 # Histoire
-![](./assets/images/slide5.jpg){ data-zoom-image }
+![](./assets/images/Slide5.jpg){ data-zoom-image }
