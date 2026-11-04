@@ -105,6 +105,7 @@ plugins:
   - mkdocs-audio
   - render-stopper:
       tag: "[STOP]"
+  - slides
 
 nav:
   - Web 1:
