@@ -11,3 +11,4 @@ title: My First Slide Deck
 url_stub: unique-url-id
 nav:
         - slides/histoire/*.md
+```
