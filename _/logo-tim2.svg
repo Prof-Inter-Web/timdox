@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:serif="http://www.serif.com/" version="1.1" viewBox="0 0 350 75">
+  <!-- Generator: Adobe Illustrator 30.2.1, SVG Export Plug-In . SVG Version: 2.1.1 Build 1)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: none;
+      }
+
+      .st1 {
+        fill: url(#Dégradé_sans_nom_42);
+      }
+    </style>
+    <linearGradient id="Dégradé_sans_nom_42" data-name="Dégradé sans nom 42" x1="57.32" y1="37.46" x2="292.57" y2="37.46" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#461e18"/>
+      <stop offset=".08" stop-color="#6f4a27"/>
+      <stop offset=".38" stop-color="#af9253"/>
+      <stop offset=".56" stop-color="#eadabc"/>
+      <stop offset=".79" stop-color="#a48560"/>
+      <stop offset=".8" stop-color="#a1815c"/>
+      <stop offset=".96" stop-color="#8a542e"/>
+    </linearGradient>
+  </defs>
+  <rect id="Plan-de-travail1" class="st0" x="57.32" width="235.25" height="74.93" serif:id="Plan de travail1"/>
+  <g id="Plan-de-travail11" serif:id="Plan de travail1">
+    <path class="st1" d="M251.16,41.15l4.01,4.01,31.73-31.73v55.82h-63.4V13.49l27.66,27.67ZM217.82.18v74.75h74.75V.18h-.44l-36.97,36.96L218.2.18h-.38,0ZM137.37.11v74.75h74.75V.11S137.37.11,137.37.11ZM169.43,32.17c-3.23,3.23-3.23,8.46,0,11.69,2.32,2.32,5.68,2.97,8.58,1.95l23.38,23.38h-58.34V5.79h63.4v58.34l-23.38-23.38c1.02-2.9.37-6.26-1.95-8.58-3.23-3.23-8.46-3.23-11.69,0ZM108.26,0l-50.94,50.94v23.81h74.75V0S108.26,0,108.26,0ZM62.99,69.08v-15.79l21.12-21.12,29.57,29.57,5.06-5.06-29.57-29.57,21.43-21.43h15.79v63.4h-63.4Z"/>
+  </g>
+</svg>
