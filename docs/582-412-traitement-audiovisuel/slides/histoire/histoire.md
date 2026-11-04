@@ -1,1 +1,1 @@
-![](./assets/images/traitement-audio.png)
+![](../../../assets/images/Slide5.jpg)
