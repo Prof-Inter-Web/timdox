@@ -5,3 +5,6 @@ mdx-truly-sane-lists
 mkdocs-video
 mkdocs-audio
 mkdocs-render-stopper
+mkdocs<2
+mkdocs-material
+mkdocs-slides
