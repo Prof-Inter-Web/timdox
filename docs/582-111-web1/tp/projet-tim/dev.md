@@ -24,6 +24,9 @@
 │  ├─ 📄 [...].html (scène 3)
 │  ├─ 📄 [...].html (scène 4)
 │  ├─ 📄 [...].html (scène 5)
+│  ├─ 📄 [...].html (scène 6)
+│  ├─ 📄 [...].html (scène 7)
+│  ├─ 📄 [...].html (scène 8)
 │  └─ 📄 [...].html (page victoire)
 │
 └─ 📄 conception.docx
