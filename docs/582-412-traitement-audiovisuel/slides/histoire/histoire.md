@@ -1,1 +1,0 @@
-![](../../../assets/images/Slide5.jpg)

@@ -77,6 +77,7 @@ extra_css:
   - https://unpkg.com/lightgallery@2.8.2/css/lightgallery.css
   - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/tokyo-night-dark.min.css
   - _/extra.css
+  - stylesheets/extra.css
 
 extra_javascript:
   - _/mathjax.js
@@ -106,6 +107,8 @@ plugins:
   - render-stopper:
       tag: "[STOP]"
   - slides
+  - search:
+      lang: fr
 
 nav:
   - Web 1:
