@@ -165,7 +165,7 @@ _utility-first_
 </div>
 </div>
 
-En _utility-first_, on composer le design directement dans le HTML, un peu comme avec des LEGO.
+En _utility-first_, on compose le design directement dans le HTML, un peu comme avec des LEGO.
 
 !!! success "Bref"
 
