@@ -12,11 +12,8 @@ L'objectif de cet exercice est de mettre en pratique la notion de **box-shadow**
 
 ## Résultat attendu
 
-<iframe class="aspect-4-3" height="300" style="width: 100%;" scrolling="no" title="Web 1 - Exercice - On/Off SOLUTION" src="https://codepen.io/tim-momo/embed/JoGqbzO?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true">
-      See the Pen <a href="https://codepen.io/tim-momo/pen/JoGqbzO">
-  Web 1 - Exercice - On/Off SOLUTION</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
+![](./assets/images/neo.png){.w-100 data-zoom-image}
+
 
 ## Consignes
 
