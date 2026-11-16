@@ -12,7 +12,7 @@ L'objectif de cet exercice est de mettre en pratique la notion de **box-shadow**
 
 ## Résultat attendu
 
-![](../assets/images/neo.png){.w-100 data-zoom-image}
+![](../../assets/images/neo.png){.w-100 data-zoom-image}
 
 
 ## Consignes
