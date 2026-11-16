@@ -337,7 +337,7 @@ La propriété CSS [box-shadow](https://developer.mozilla.org/fr/docs/Web/CSS/Re
 ## Exercices
 
 <div class="grid grid-1-2" markdown>
-  ![](../../assets/images/neo2.png)
+  ![](./assets/images/neo2.png)
 
   <small>Exercice - CSS</small><br>
   **[Néomorphisme](./exercices/neomorphisme/index.md){.stretched-link .back}**
