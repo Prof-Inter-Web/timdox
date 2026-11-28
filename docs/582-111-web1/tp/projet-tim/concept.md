@@ -15,7 +15,11 @@ Les piliers du concept
 
 Exemples en ligne : 
 
-* <https://prof-inter-web.github.io/Escape-Game/index.html> (par votre humble enseignant) 
+* <https://prof-inter-web.github.io/Escape-Game/index.html> (par votre humble enseignant)
+
+Fichiers du site
+
+[Projet T.I.M](./Escape-Game.zip)
 
 
 !!! warning "Pas de choix de réponse"
