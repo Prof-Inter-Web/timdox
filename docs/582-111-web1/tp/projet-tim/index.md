@@ -2,7 +2,7 @@
 
 ![](giphy.gif){.w-100}
 
-Le TP2 consiste à créer un petit jeu d'évasion comprenant une page d'accueil, 8 pages et une page de victoire.
+Le TP2 consiste à créer un petit jeu d'évasion comprenant une page d'accueil, 6 pages et une page de victoire.
 
 ## Développement du TP2 (40% de la session)
 
