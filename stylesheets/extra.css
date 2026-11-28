@@ -1,0 +1,27 @@
+  .slides-deck { background: #000; border-color: #000; border: 1px solid #4d4104 !important; }
+  .slides-viewport { height: 100% !important; }
+  .slide { background: #000 !important; }
+  .slides-deck:hover .slides-controls {
+    opacity: 0;
+    background: #000 !important;
+    border-top: 0px solid #000000 !important; 
+}
+.slides-controls button {
+    padding: 0.5rem 1rem;
+    border: 0px solid transparent !important;
+    background: #111111 !important;
+    border-radius: 4px;
+    cursor: pointer;
+    color: transparent;
+    transition: all 0.2s ease;
+}
+
+/* Plein écran : barre collée en bas, fond noir, sans bordure */
+.slides-deck.fullscreen {
+  background: #000 !important;
+  border: none;
+  border-radius: 0;
+}
+.slides-deck.fullscreen .slides-controls {
+  bottom: 0 !important;
+}
