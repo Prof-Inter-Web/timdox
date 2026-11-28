@@ -17,9 +17,11 @@ Exemples en ligne :
 
 * <https://prof-inter-web.github.io/Escape-Game/index.html> (par votre humble enseignant)
 
-Fichiers du site
+!!! tip "Fichiers du site"
+   
+    [Projet T.I.M](./Escape-Game.zip)
 
-[Projet T.I.M](./Escape-Game.zip)
+
 
 
 !!! warning "Pas de choix de réponse"
